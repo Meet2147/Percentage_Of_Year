@@ -28,7 +28,7 @@ def progressbar():
     day_of_year = datetime.now().timetuple().tm_yday
     percentage = (day_of_year/365)*100
     bar = '◾' * int(percentage) + '-' * (100-int(percentage))
-    bar = '😎' * int(percentage) + '-' * (100-int(percentage))
+    #bar = '😎' * int(percentage) + '-' * (100-int(percentage))
     # display = f"\r|{bar}| {percentage:.2f}%", end="\r"
     return f"{bar}| {percentage:.2f}%"
     
