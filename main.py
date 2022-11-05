@@ -21,7 +21,7 @@ def percentage_of_year():
     print(type(percentage_year_complete))
     
 
-    return percentage_year_complete
+    return round(percentage_year_complete)
 
 @app.get("/progress")
 def progressbar():
